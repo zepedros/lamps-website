@@ -1,0 +1,17 @@
+[
+    {
+        "img": "./images/23edf836-06ad-4a28-95c4-2f4c87b3f727.jpeg",
+        "title": "Watercolor painting of Alfama",
+        "description": "This is an original Watercolor of Alfama, near an alley."
+    },
+    {
+        "img": "./images/andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg",
+        "title": "Clean wallpaper",
+        "description": "Clean wallpaper used for testing purposes"
+    },
+    {
+        "img": "./images/bcqd1xykujg61.jpg",
+        "title": "Vertical wallpaper",
+        "description": "Vertical wallpaper used to test vertical images"
+    }
+]
