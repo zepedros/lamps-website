@@ -90,8 +90,8 @@ function Item(props) {
         >
             <CardMedia
                 sx={{
-                    height: "90vh",//100% view height
-                    width: "90vw",  // 100% view width
+                    height: "60vh",//100% view height
+                    width: "60vw",  // 100% view width
                 }}
                 component="img"
                 image={props.item.img}
