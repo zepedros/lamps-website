@@ -1,8 +1,5 @@
 import React from 'react';
 import Carousel from 'react-material-ui-carousel'
-import ImageListItem from '@mui/material/ImageListItem';
-import { Paper, Button } from '@mui/material'
-import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import image1 from "./../../images/horizontal/WhatsApp Image 2022-09-08 at 17.33.31.jpeg"
 import image2 from "./../../images/horizontal/WhatsApp Image 2022-09-08 at 17.33.33.jpeg"
@@ -12,7 +9,6 @@ import image5 from "./../../images/23edf836-06ad-4a28-95c4-2f4c87b3f727.jpeg"
 import image7 from "./../../images/horizontal/Untitled.png"
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 import image6 from "./../../images/bcqd1xykujg61.jpg"
 export default function CarouselSlide(props) {
@@ -90,8 +86,8 @@ function Item(props) {
         >
             <CardMedia
                 sx={{
-                    height: "60vh",//100% view height
-                    width: "60vw",  // 100% view width
+                    height: "80vh",//100% view height
+                    width: "80vw",  // 100% view width
                 }}
                 component="img"
                 image={props.item.img}

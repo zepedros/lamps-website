@@ -20,13 +20,14 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
+import LightbulbOutlinedIcon from '@mui/icons-material/LightbulbOutlined';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 
 const pages = [
-  { name: 'Works', href: '/works' },
-  { name: 'About Me', href: '/about-me' },
-  { name: 'Contacts', href: '/contacts' }
+  { name: 'works', href: '/works' },
+  { name: 'about me', href: '/about-me' },
+  { name: 'contacts', href: '/contacts' }
 ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -66,7 +67,7 @@ const ResponsiveAppBar = () => {
 
   const list = (anchor) => (
     <Box
-      sx={{ width:'auto'}}
+      sx={{ width: 'auto' }}
       role="presentation"
       onClick={toggleDrawer()}
       onKeyDown={toggleDrawer()}
@@ -75,7 +76,15 @@ const ResponsiveAppBar = () => {
         {pages.map((page) => (
           <ListItem button={true} component="a" href={page.href} key={page.name} disablePadding>
             <ListItemButton>
-              <ListItemText primary={page.name}/>
+              <ListItemText>
+                <Typography
+                  fontFamily='Roboto Slab'
+                  color={window.location.pathname === page.href ? 'black' : 'black'}
+                  sx={{ textDecoration: window.location.pathname === page.href ? 'underline' : null }}
+                >
+                  {page.name}
+                </Typography>
+              </ListItemText>
             </ListItemButton>
           </ListItem>
         ))}
@@ -87,29 +96,28 @@ const ResponsiveAppBar = () => {
     <AppBar position="static" style={{ background: '#2E3B55' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <LightbulbOutlinedIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
+            href='/'
             variant="h6"
             noWrap
             component="a"
-            href="/"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              fontFamily: 'Roboto Slab',
               fontWeight: 700,
-              letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
           >
-            LOGO
+            lamps
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
+              aria-label="hamburguer-menu"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={toggleDrawer('top', true)}
@@ -133,7 +141,7 @@ const ResponsiveAppBar = () => {
             </div>
 
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          <LightbulbOutlinedIcon sx={{ display: { md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -143,25 +151,30 @@ const ResponsiveAppBar = () => {
               mr: 2,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
-              fontFamily: 'monospace',
+              fontFamily: 'Roboto Slab',
               fontWeight: 700,
-              letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
           >
-            LOGO
+            lamps
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Button
+              <IconButton
                 key={page.name}
                 href={page.href}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'white', display: 'block', "&:hover": { color: "gray" } }}
               >
-                {page.name}
-              </Button>
+                <Typography
+                  fontFamily='Roboto Slab'
+                  color={window.location.pathname === page.href ? 'white' : 'white'}
+                  sx={{ textDecoration: window.location.pathname === page.href ? 'underline' : null }}
+                >
+                  {page.name}
+                </Typography>
+              </IconButton>
             ))}
           </Box>
 
