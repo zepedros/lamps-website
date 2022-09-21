@@ -1,6 +1,9 @@
 import ResponsiveAppBar from "../../common/ResponsiveAppBar";
+import WorkInfo from "./WorkInfo";
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
+import { CardActionArea } from '@mui/material';
+import { useState } from "react";
 
 /**Horizontal Images */
 import alfamaViewImage from "../../../images/horizontal/WhatsApp Image 2022-09-08 at 17.33.31.jpeg"
@@ -14,33 +17,62 @@ import grandCanyonImage from "../../../images/bcqd1xykujg61.jpg"
 import alfamaRoofsImage from "../../../images/WhatsApp Image 2022-09-08 at 17.33.30.jpeg"
 
 
-
-
-function openImage(imageTitle){
-    alert(imageTitle)
-}
-
-
 export default function Works() {
+    const [showImageInfo, setShowImageInfo] = useState(false)
+    const [imageInfo, setImageInfo] = useState({})
+
+    function handleShowImageInfo(open, img, title, description) {
+        if (open) {
+            setShowImageInfo(open)
+            setImageInfo({
+                img: img,
+                title: title,
+                description: description
+            })
+        }else{
+            setShowImageInfo(false)
+            setImageInfo({})
+        }
+    }
+
     return (
         <div>
 
             <ResponsiveAppBar />
-            <ImageList variant="masonry" cols={2} gap={8}>
-                {itemData.map((item) => (
-                    <ImageListItem 
-                    key={item.img}
-                    onClick={()=>openImage(item.title)}
+            {
+                showImageInfo ?
+                    <WorkInfo
+                        img={imageInfo.img}
+                        title={imageInfo.title}
+                        description={imageInfo.description}
+                        handleClosing={() => handleShowImageInfo(false)}
+                        onClick={() => handleShowImageInfo(true)}
                     >
-                        <img
-                            src={item.img}
-                            srcSet={item.img}
-                            alt={item.title}
-                            loading="lazy"
-                        />
-                    </ImageListItem>
-                ))}
-            </ImageList>
+                    </WorkInfo>
+                    :
+                    null
+            }
+            {
+                showImageInfo ?
+                    null
+                    :
+                    <ImageList variant="masonry" cols={2} gap={8}>
+                        {itemData.map((item) => (
+                            <CardActionArea key={item.img}>
+                                <ImageListItem
+                                    onClick={() => handleShowImageInfo(true, item.img, item.title, item.description)}
+                                >
+                                    <img
+                                        src={item.img}
+                                        srcSet={item.img}
+                                        alt={item.title}
+                                        loading="lazy"
+                                    />
+                                </ImageListItem>
+                            </CardActionArea>
+                        ))}
+                    </ImageList>
+            }
         </div>
     )
 }

@@ -96,23 +96,26 @@ const ResponsiveAppBar = () => {
     <AppBar position="static" style={{ background: '#2E3B55' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <LightbulbOutlinedIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-          <Typography
-            href='/'
-            variant="h6"
-            noWrap
-            component="a"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'Roboto Slab',
-              fontWeight: 700,
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            lamps
-          </Typography>
+          <IconButton>
+            <LightbulbOutlinedIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, color: "white" }} />
+            <Typography
+              href='/'
+              variant="h6"
+              noWrap
+              component="a"
+              sx={{
+                mr: 2,
+                display: { xs: 'none', md: 'flex' },
+                fontFamily: 'Roboto Slab',
+                fontWeight: 700,
+                color: 'white',
+                textDecoration: 'none',
+              }}
+            >
+              lamps
+            </Typography>
+          </IconButton>
+
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -141,7 +144,9 @@ const ResponsiveAppBar = () => {
             </div>
 
           </Box>
-          <LightbulbOutlinedIcon sx={{ display: { md: 'none' }, mr: 1 }} />
+          <IconButton>
+            <LightbulbOutlinedIcon sx={{ display: { md: 'none' }, mr: 1, color: "white" }} />
+          </IconButton>
           <Typography
             variant="h5"
             noWrap
@@ -153,7 +158,7 @@ const ResponsiveAppBar = () => {
               flexGrow: 1,
               fontFamily: 'Roboto Slab',
               fontWeight: 700,
-              color: 'inherit',
+              color: 'white',
               textDecoration: 'none',
             }}
           >

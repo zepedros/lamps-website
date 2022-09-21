@@ -80,8 +80,8 @@ function Item(props) {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                height: "100vh",//100% view height
-                width: "100vw"
+                height: "90vh",//100% view height
+                width: "auto",  // 100% view width
             }}
         >
             <CardMedia
