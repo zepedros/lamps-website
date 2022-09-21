@@ -29,7 +29,7 @@ export default function Works() {
                 title: title,
                 description: description
             })
-        }else{
+        } else {
             setShowImageInfo(false)
             setImageInfo({})
         }
@@ -41,20 +41,22 @@ export default function Works() {
             <ResponsiveAppBar />
             {
                 showImageInfo ?
-                    <WorkInfo
-                        img={imageInfo.img}
-                        title={imageInfo.title}
-                        description={imageInfo.description}
-                        handleClosing={() => handleShowImageInfo(false)}
-                        onClick={() => handleShowImageInfo(true)}
+                    <div
+                        style={
+                            {
+                                "margin-top": "50px"
+                            }
+                        }
                     >
-                    </WorkInfo>
-                    :
-                    null
-            }
-            {
-                showImageInfo ?
-                    null
+                        <WorkInfo
+                            img={imageInfo.img}
+                            title={imageInfo.title}
+                            description={imageInfo.description}
+                            handleClosing={() => handleShowImageInfo(false)}
+                            onClick={() => handleShowImageInfo(true)}
+                        >
+                        </WorkInfo>
+                    </div>
                     :
                     <ImageList variant="masonry" cols={2} gap={8}>
                         {itemData.map((item) => (

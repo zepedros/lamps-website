@@ -68,8 +68,6 @@ export default function WorkInfo(props) {
                     </IconButton>
                 </Grid>
             </Grid>
-
-
         </div>
     )
 }
