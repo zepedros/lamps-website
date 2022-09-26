@@ -10,11 +10,11 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path={"/lamps-website"} element={<Home/>} />
-        <Route path={"/lamps-website/works"} element={<Works/>} />
-        <Route path={"/lamps-website/about-me"} element={<AboutMe/>}/>
-        <Route path={"/lamps-website/contacts"} element={<Contacts/>}/>
-        <Route path={"/lamps-website/test"} element={<WorkInfo/>}/>
+        <Route path={"/#/lamps-website"} element={<Home/>} />
+        <Route path={"/#/lamps-website/works"} element={<Works/>} />
+        <Route path={"/#/lamps-website/about-me"} element={<AboutMe/>}/>
+        <Route path={"/#/lamps-website/contacts"} element={<Contacts/>}/>
+        <Route path={"/#/lamps-website/test"} element={<WorkInfo/>}/>
       </Routes>
     </HashRouter>
   );
