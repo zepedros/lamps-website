@@ -8,15 +8,15 @@ import {HashRouter,BrowserRouter, Routes,Route} from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename="/">
       <Routes>
-        <Route path={"/lamps-website"} element={<Home/>} />
-        <Route path={"/lamps-website/works"} element={<Works/>} />
-        <Route path={"/lamps-website/about-me"} element={<AboutMe/>}/>
-        <Route path={"/lamps-website/contacts"} element={<Contacts/>}/>
-        <Route path={"/lamps-website/test"} element={<WorkInfo/>}/>
+        <Route path={"/"} element={<Home/>} />
+        <Route path={"/works"} element={<Works/>} />
+        <Route path={"/about-me"} element={<AboutMe/>}/>
+        <Route path={"/contacts"} element={<Contacts/>}/>
+        <Route path={"/test"} element={<WorkInfo/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
