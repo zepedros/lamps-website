@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lamps-website/static/css/main.0d1b1748.css",
-    "main.js": "/lamps-website/static/js/main.0370c816.js",
+    "main.js": "/lamps-website/static/js/main.b5c97f60.js",
     "static/js/787.351e15be.chunk.js": "/lamps-website/static/js/787.351e15be.chunk.js",
     "static/media/Untitled.png": "/lamps-website/static/media/Untitled.89934aa10d5351e9e34e.png",
     "static/media/bcqd1xykujg61.jpg": "/lamps-website/static/media/bcqd1xykujg61.de20e817ed8148f585a7.jpg",
@@ -16,11 +16,11 @@
     "static/media/MODENINE.TTF": "/lamps-website/static/media/MODENINE.116d0efd9dbb932a0a45.TTF",
     "index.html": "/lamps-website/index.html",
     "main.0d1b1748.css.map": "/lamps-website/static/css/main.0d1b1748.css.map",
-    "main.0370c816.js.map": "/lamps-website/static/js/main.0370c816.js.map",
+    "main.b5c97f60.js.map": "/lamps-website/static/js/main.b5c97f60.js.map",
     "787.351e15be.chunk.js.map": "/lamps-website/static/js/787.351e15be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d1b1748.css",
-    "static/js/main.0370c816.js"
+    "static/js/main.b5c97f60.js"
   ]
 }
