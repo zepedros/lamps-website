@@ -113,7 +113,7 @@ const ResponsiveAppBar = () => {
                 textDecoration: 'none',
               }}
             >
-              lamps
+              luís jesus
             </Typography>
           </IconButton>
 
@@ -163,7 +163,7 @@ const ResponsiveAppBar = () => {
               textDecoration: 'none',
             }}
           >
-            lamps
+            luís jesus
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
