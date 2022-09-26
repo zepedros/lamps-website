@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/lamps-website/static/css/main.0d1b1748.css",
+    "main.js": "/lamps-website/static/js/main.3cd10265.js",
+    "static/js/787.351e15be.chunk.js": "/lamps-website/static/js/787.351e15be.chunk.js",
+    "static/media/Untitled.png": "/lamps-website/static/media/Untitled.89934aa10d5351e9e34e.png",
+    "static/media/bcqd1xykujg61.jpg": "/lamps-website/static/media/bcqd1xykujg61.de20e817ed8148f585a7.jpg",
+    "static/media/WhatsApp Image 2022-09-08 at 17.33.33.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.33.c0b3dae7584239a954cc.jpeg",
+    "static/media/WhatsApp Image 2022-09-08 at 17.33.30.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.30.ea091a15d748c1e05a03.jpeg",
+    "static/media/23edf836-06ad-4a28-95c4-2f4c87b3f727.jpeg": "/lamps-website/static/media/23edf836-06ad-4a28-95c4-2f4c87b3f727.6b1a28b43a222e8d463b.jpeg",
+    "static/media/WhatsApp Image 2022-09-08 at 17.33.31.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.31.bab8adc6fbe62d719a16.jpeg",
+    "static/media/WhatsApp Image 2022-09-08 at 17.33.34.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.34.9bf30ffbcdff3310519a.jpeg",
+    "static/media/WhatsApp Image 2022-09-08 at 17.33.36.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.36.43094971438efaf13d5e.jpeg",
+    "static/media/RobotoSlab-VariableFont_wght.ttf": "/lamps-website/static/media/RobotoSlab-VariableFont_wght.24c71ebd53c3ed50accb.ttf",
+    "static/media/WhatsApp Image 2022-09-08 at 17.33.35.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.35.bec07c3fcadebb091fd6.jpeg",
+    "static/media/MODENINE.TTF": "/lamps-website/static/media/MODENINE.116d0efd9dbb932a0a45.TTF",
+    "index.html": "/lamps-website/index.html",
+    "main.0d1b1748.css.map": "/lamps-website/static/css/main.0d1b1748.css.map",
+    "main.3cd10265.js.map": "/lamps-website/static/js/main.3cd10265.js.map",
+    "787.351e15be.chunk.js.map": "/lamps-website/static/js/787.351e15be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d1b1748.css",
+    "static/js/main.3cd10265.js"
+  ]
+}
