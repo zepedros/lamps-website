@@ -25,9 +25,9 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 
 const pages = [
-  { name: 'works', href: '/works' },
-  { name: 'about me', href: '/about-me' },
-  { name: 'contacts', href: '/contacts' }
+  { name: 'works', href: '/lamps-website/works' },
+  { name: 'about me', href: '/lamps-website/about-me' },
+  { name: 'contacts', href: '/lamps-website/contacts' }
 ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -99,7 +99,7 @@ const ResponsiveAppBar = () => {
           <IconButton>
             <LightbulbOutlinedIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, color: "white" }} />
             <Typography
-              href='/'
+              href='/lamps-website/'
               variant="h6"
               noWrap
               component="a"
@@ -151,7 +151,7 @@ const ResponsiveAppBar = () => {
             variant="h5"
             noWrap
             component="a"
-            href="/"
+            href="/lamps-website"
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
