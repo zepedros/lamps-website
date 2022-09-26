@@ -8,9 +8,9 @@ import {HashRouter,BrowserRouter, Routes,Route} from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter>
       <Routes>
-        <Route path={"/"} element={<Home/>} />
+        <Route path={"/home"} element={<Home/>} />
         <Route path={"/works"} element={<Works/>} />
         <Route path={"/about-me"} element={<AboutMe/>}/>
         <Route path={"/contacts"} element={<Contacts/>}/>
