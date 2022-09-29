@@ -10,7 +10,7 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path={"/home"} element={<Home/>} />
+        <Route path={"/"} element={<Home/>} />
         <Route path={"/works"} element={<Works/>} />
         <Route path={"/about-me"} element={<AboutMe/>}/>
         <Route path={"/contacts"} element={<Contacts/>}/>

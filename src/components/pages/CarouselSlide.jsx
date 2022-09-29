@@ -6,11 +6,9 @@ import image2 from "./../../images/horizontal/WhatsApp Image 2022-09-08 at 17.33
 import image3 from "./../../images/horizontal/WhatsApp Image 2022-09-08 at 17.33.34.jpeg"
 import image4 from "./../../images/horizontal/WhatsApp Image 2022-09-08 at 17.33.36.jpeg"
 import image5 from "./../../images/23edf836-06ad-4a28-95c4-2f4c87b3f727.jpeg"
-import image7 from "./../../images/horizontal/Untitled.png"
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
-import image6 from "./../../images/bcqd1xykujg61.jpg"
 export default function CarouselSlide(props) {
     var items = [
         {
@@ -27,9 +25,6 @@ export default function CarouselSlide(props) {
         },
         {
             img: image5
-        },
-        {
-            img: image6
         }
     ]
 

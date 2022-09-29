@@ -13,9 +13,28 @@ import clothesDryingImage from "../../../images/horizontal/WhatsApp Image 2022-0
 import buildingsPatternImage from "../../../images/horizontal/WhatsApp Image 2022-09-08 at 17.33.36.jpeg"
 //Vertical Images
 import alfamaRuaDeSaoMiguelImage from "../../../images/23edf836-06ad-4a28-95c4-2f4c87b3f727.jpeg"
-import grandCanyonImage from "../../../images/bcqd1xykujg61.jpg"
 import alfamaRoofsImage from "../../../images/WhatsApp Image 2022-09-08 at 17.33.30.jpeg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
 
+import blueCircle from "../../../images/38403228_2172272889452607_78789839310290944_n.jpg"
+import abstractWomenSketch from "../../../images/49212738_2383709961642231_4030898047918538752_n.jpg"
+import heartAndSoul from "../../../images/60134012_2591086547571237_7573481545759981568_n.jpg"
+import octupus from "../../../images/128350242_3982015378478340_2030630768029715217_n.jpg"
+import lemon from "../../../images/164703303_4296526463693895_5443742767319413468_n.jpg"
+import blueAndRedSections from "../../../images/180872235_4420069991339541_2001575597524005924_n.jpg"
+/*
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"
+import churchWaterColor from "../../../images/16179729_1448576588488911_6675918978981293786_o.jpg"*/
 
 export default function Works() {
     const [showImageInfo, setShowImageInfo] = useState(false)
@@ -58,22 +77,45 @@ export default function Works() {
                         </WorkInfo>
                     </div>
                     :
-                    <ImageList variant="masonry" cols={2} gap={8}>
-                        {itemData.map((item) => (
-                            <CardActionArea key={item.img}>
-                                <ImageListItem
-                                    onClick={() => handleShowImageInfo(true, item.img, item.title, item.description)}
-                                >
-                                    <img
-                                        src={item.img}
-                                        srcSet={item.img}
-                                        alt={item.title}
-                                        loading="lazy"
-                                    />
-                                </ImageListItem>
-                            </CardActionArea>
-                        ))}
-                    </ImageList>
+                    <div>
+                        <ImageList variant="masonry" cols={3} gap={8}
+                            sx={{ display: { xs: 'none', md: 'block' } }}
+                        >
+                            {itemData.map((item) => (
+                                <CardActionArea key={item.img}>
+                                    <ImageListItem
+                                        onClick={() => handleShowImageInfo(true, item.img, item.title, item.description)}
+                                    >
+                                        <img
+                                            src={item.img}
+                                            srcSet={item.img}
+                                            alt={item.title}
+                                            loading="lazy"
+                                        />
+                                    </ImageListItem>
+                                </CardActionArea>
+                            ))}
+                        </ImageList>
+                        <ImageList variant="masonry" cols={2} gap={8}
+                            sx={{ display: { xs: 'block', md: 'none' } }}
+                        >
+                            {itemData.map((item) => (
+                                <CardActionArea key={item.img}>
+                                    <ImageListItem
+                                        onClick={() => handleShowImageInfo(true, item.img, item.title, item.description)}
+                                    >
+                                        <img
+                                            src={item.img}
+                                            srcSet={item.img}
+                                            alt={item.title}
+                                            loading="lazy"
+                                        />
+                                    </ImageListItem>
+                                </CardActionArea>
+                            ))}
+                        </ImageList>
+                    </div>
+
             }
         </div>
     )
@@ -110,15 +152,44 @@ const itemData = [
         title: "Yellow building in Alfama",
         description: "Building in Alfama alley"
     },
-
-    {
-        img: grandCanyonImage,
-        title: "Grand Canyon",
-        description: "Grand Canyon wallpaper"
-    },
     {
         img: alfamaRoofsImage,
         title: "Alfama Roofs",
         description: "View of the roofs in Alfama"
+    },
+    {
+        img: churchWaterColor,
+        title: "Church in Lisbon",
+        description: "Church in Lisbon painted with water color"
+    },
+    {
+        img: blueCircle,
+        title: "Blue Circle",
+        description: ""
+    },
+    {
+        img: abstractWomenSketch,
+        title: "Church in Lisbon",
+        description: "Church in Lisbon painted with water color"
+    },
+    {
+        img: heartAndSoul,
+        title: "Church in Lisbon",
+        description: "Church in Lisbon painted with water color"
+    },
+    {
+        img: octupus,
+        title: "Church in Lisbon",
+        description: "Church in Lisbon painted with water color"
+    },
+    {
+        img: lemon,
+        title: "Church in Lisbon",
+        description: "Church in Lisbon painted with water color"
+    },
+    {
+        img: blueAndRedSections,
+        title: "Church in Lisbon",
+        description: "Church in Lisbon painted with water color"
     }
 ]
