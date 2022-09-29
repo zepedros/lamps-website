@@ -1,26 +1,31 @@
 {
   "files": {
     "main.css": "/lamps-website/static/css/main.0d1b1748.css",
-    "main.js": "/lamps-website/static/js/main.b5c97f60.js",
+    "main.js": "/lamps-website/static/js/main.7712a93c.js",
     "static/js/787.351e15be.chunk.js": "/lamps-website/static/js/787.351e15be.chunk.js",
-    "static/media/Untitled.png": "/lamps-website/static/media/Untitled.89934aa10d5351e9e34e.png",
-    "static/media/bcqd1xykujg61.jpg": "/lamps-website/static/media/bcqd1xykujg61.de20e817ed8148f585a7.jpg",
     "static/media/WhatsApp Image 2022-09-08 at 17.33.33.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.33.c0b3dae7584239a954cc.jpeg",
     "static/media/WhatsApp Image 2022-09-08 at 17.33.30.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.30.ea091a15d748c1e05a03.jpeg",
     "static/media/23edf836-06ad-4a28-95c4-2f4c87b3f727.jpeg": "/lamps-website/static/media/23edf836-06ad-4a28-95c4-2f4c87b3f727.6b1a28b43a222e8d463b.jpeg",
     "static/media/WhatsApp Image 2022-09-08 at 17.33.31.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.31.bab8adc6fbe62d719a16.jpeg",
+    "static/media/49212738___n.jpg": "/lamps-website/static/media/49212738_2383709961642231_4030898047918538752_n.5e30f8c1b5385b4eefe4.jpg",
     "static/media/WhatsApp Image 2022-09-08 at 17.33.34.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.34.9bf30ffbcdff3310519a.jpeg",
+    "static/media/16179729___o.jpg": "/lamps-website/static/media/16179729_1448576588488911_6675918978981293786_o.e35bd61e52d169d47c45.jpg",
     "static/media/WhatsApp Image 2022-09-08 at 17.33.36.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.36.43094971438efaf13d5e.jpeg",
+    "static/media/180872235___n.jpg": "/lamps-website/static/media/180872235_4420069991339541_2001575597524005924_n.170d92ad3f7e54b58a56.jpg",
+    "static/media/128350242___n.jpg": "/lamps-website/static/media/128350242_3982015378478340_2030630768029715217_n.6e70ef083cbcc9f10587.jpg",
     "static/media/RobotoSlab-VariableFont_wght.ttf": "/lamps-website/static/media/RobotoSlab-VariableFont_wght.24c71ebd53c3ed50accb.ttf",
+    "static/media/164703303___n.jpg": "/lamps-website/static/media/164703303_4296526463693895_5443742767319413468_n.77b29ed3ba120a179a65.jpg",
+    "static/media/60134012___n.jpg": "/lamps-website/static/media/60134012_2591086547571237_7573481545759981568_n.7ab69652b3fcb8ae91c2.jpg",
+    "static/media/38403228___n.jpg": "/lamps-website/static/media/38403228_2172272889452607_78789839310290944_n.5a888f8bd12cbb60576b.jpg",
     "static/media/WhatsApp Image 2022-09-08 at 17.33.35.jpeg": "/lamps-website/static/media/WhatsApp Image 2022-09-08 at 17.33.35.bec07c3fcadebb091fd6.jpeg",
     "static/media/MODENINE.TTF": "/lamps-website/static/media/MODENINE.116d0efd9dbb932a0a45.TTF",
     "index.html": "/lamps-website/index.html",
     "main.0d1b1748.css.map": "/lamps-website/static/css/main.0d1b1748.css.map",
-    "main.b5c97f60.js.map": "/lamps-website/static/js/main.b5c97f60.js.map",
+    "main.7712a93c.js.map": "/lamps-website/static/js/main.7712a93c.js.map",
     "787.351e15be.chunk.js.map": "/lamps-website/static/js/787.351e15be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d1b1748.css",
-    "static/js/main.b5c97f60.js"
+    "static/js/main.7712a93c.js"
   ]
 }
