@@ -36,16 +36,51 @@ export default function WorkInfo(props) {
                         image={props.img}
                     />
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h5" component="div"
+                            sx={{
+                                mr: 3,
+                                flexGrow: 1,
+                                fontFamily: 'Roboto Slab',
+                                fontWeight: 700,
+                                color: '#2E3B55',
+                                textDecoration: 'none',
+                            }}>
                             {props.title}
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography variant="body2" color="text.secondary"
+                            sx={{
+                                mr: 3,
+                                flexGrow: 1,
+                                fontFamily: 'Roboto Slab',
+                                fontWeight: 700,
+                                color: 'black',
+                                textDecoration: 'none',
+                            }}
+                        >
                             {props.description}
                         </Typography>
-                        <Typography gutterBottom variant="body2" color="text.secondary">
+                        <Typography gutterBottom variant="body2"
+                            sx={{
+                                mr: 3,
+                                flexGrow: 1,
+                                fontFamily: 'Roboto Slab',
+                                fontWeight: 500,
+                                color: 'text.secondary',
+                                textDecoration: 'none',
+                            }}
+                        >
                             {"90x160cm"}
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography variant="body2" color="text.secondary"
+                            sx={{
+                                mr: 3,
+                                flexGrow: 1,
+                                fontFamily: 'Roboto Slab',
+                                fontWeight: 500,
+                                color: 'text.secondary',
+                                textDecoration: 'none',
+                            }}
+                        >
                             {"Oil"}
                         </Typography>
                     </CardContent>
@@ -75,16 +110,51 @@ export default function WorkInfo(props) {
                 </Grid>
                 <Grid item xs={12}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h5" component="div"
+                            sx={{
+                                mr: 3,
+                                flexGrow: 1,
+                                fontFamily: 'Roboto Slab',
+                                fontWeight: 700,
+                                color: '#2E3B55',
+                                textDecoration: 'none',
+                            }}>
                             {props.title}
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography variant="body2" color="text.secondary"
+                            sx={{
+                                mr: 3,
+                                flexGrow: 1,
+                                fontFamily: 'Roboto Slab',
+                                fontWeight: 700,
+                                color: 'black',
+                                textDecoration: 'none',
+                            }}
+                        >
                             {props.description}
                         </Typography>
-                        <Typography gutterBottom variant="body2" color="text.secondary">
+                        <Typography gutterBottom variant="body2"
+                            sx={{
+                                mr: 3,
+                                flexGrow: 1,
+                                fontFamily: 'Roboto Slab',
+                                fontWeight: 500,
+                                color: 'text.secondary',
+                                textDecoration: 'none',
+                            }}
+                        >
                             {"90x160cm"}
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography variant="body2" color="text.secondary"
+                            sx={{
+                                mr: 3,
+                                flexGrow: 1,
+                                fontFamily: 'Roboto Slab',
+                                fontWeight: 500,
+                                color: 'text.secondary',
+                                textDecoration: 'none',
+                            }}
+                        >
                             {"Oil"}
                         </Typography>
                     </CardContent>
