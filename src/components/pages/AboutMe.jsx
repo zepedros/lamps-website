@@ -43,7 +43,7 @@ export default function AboutMe() {
                     color: 'black',
                     textDecoration: 'none',
                 }}>
-                Luís Jesus was born in Lisbon in 1963. He works as a Physical Education teacher and is self-taught in the field of drawing and painting.
+                My name is Luís Jesus and I was born in Lisbon in 1963. I works as a Physical Education teacher and I'm self-taught in the field of drawing and painting.
             </Typography>
             <br></br>
             <Divider />

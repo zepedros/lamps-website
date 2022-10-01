@@ -59,7 +59,8 @@ export default function WorkInfo(props) {
                         >
                             {props.description}
                         </Typography>
-                        <Typography gutterBottom variant="body2"
+                        {/**
+                         * <Typography gutterBottom variant="body2"
                             sx={{
                                 mr: 3,
                                 flexGrow: 1,
@@ -83,6 +84,7 @@ export default function WorkInfo(props) {
                         >
                             {"Oil"}
                         </Typography>
+                         */}
                     </CardContent>
                 </Grid>
             </Grid>
@@ -133,7 +135,8 @@ export default function WorkInfo(props) {
                         >
                             {props.description}
                         </Typography>
-                        <Typography gutterBottom variant="body2"
+                        {/**
+                         * <Typography gutterBottom variant="body2"
                             sx={{
                                 mr: 3,
                                 flexGrow: 1,
@@ -157,6 +160,8 @@ export default function WorkInfo(props) {
                         >
                             {"Oil"}
                         </Typography>
+                         */}
+
                     </CardContent>
                 </Grid>
                 <Grid item xs={12}>
