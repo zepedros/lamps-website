@@ -11,7 +11,7 @@ import image6 from "../../images/horizontal/11 PRINT OK  -  É O CAMINHO 200 A3 
 import image7 from "../../images/horizontal/29511260_1989151991098032_2297300043901532653_n.jpg"
 import image8 from "../../images/horizontal/PRINT 12 OK  - 3  ABSTRACT  FORMATO A2 200 DPI NOVO  200  - FORMATO DA FOLHA A2 HORIZONTAL   EEA.jpg"
 import image9 from "../../images/horizontal/PRINT 13 OK - NOVO LETRAS  A2  200 - HORIZONTAL  200  -  EEA.jpg"
-import image10 from "../../images/horizontal/41826414_2238797246133504_8347112469822439424_n.jpg"
+import image10 from "../../images/horizontal/272292982_5295857060427492_1155442714926173568_n.jpg"
 
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
