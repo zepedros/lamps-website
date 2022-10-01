@@ -4,6 +4,8 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import { CardActionArea } from '@mui/material';
 import { useState } from "react";
+import Typography from '@mui/material/Typography';
+
 
 /**Horizontal Images */
 import alfamaViewImage from "../../../images/horizontal/WhatsApp Image 2022-09-08 at 17.33.31.jpeg"
@@ -73,6 +75,7 @@ export default function Works() {
         <div>
 
             <ResponsiveAppBar />
+
             {
                 showImageInfo ?
                     <div
@@ -93,6 +96,25 @@ export default function Works() {
                     </div>
                     :
                     <div>
+                        <br></br>
+                        <Typography
+                            textAlign={"center"}
+                            marginLeft={"2%"}
+                            marginRight={"2%"}
+                            variant="body2"
+                            style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center'
+                            }}
+                            sx={{
+                                fontFamily: 'Roboto Slab',
+                                fontWeight: 500,
+                                color: 'black',
+                                textDecoration: 'none',
+                            }}>
+                            Some of the paintings shown on the works section of the website are being made into a limited series. These are then numbered, signed and properly authenticated by the author (Luís Jesus). If you wish to get more information, feel free to contact us.
+                        </Typography>
                         <ImageList variant="masonry" cols={4} gap={8}
                             sx={{ display: { xs: 'none', md: 'block' } }}
                         >

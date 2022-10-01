@@ -6,25 +6,32 @@ import image2 from "./../../images/horizontal/WhatsApp Image 2022-09-08 at 17.33
 import image3 from "./../../images/horizontal/WhatsApp Image 2022-09-08 at 17.33.34.jpeg"
 import image4 from "./../../images/horizontal/WhatsApp Image 2022-09-08 at 17.33.36.jpeg"
 import image5 from "./../../images/23edf836-06ad-4a28-95c4-2f4c87b3f727.jpeg"
+
+import image6 from "../../images/horizontal/11 PRINT OK  -  É O CAMINHO 200 A3  HORIZONTAL   EEA.jpg"
+import image7 from "../../images/horizontal/29511260_1989151991098032_2297300043901532653_n.jpg"
+import image8 from "../../images/horizontal/PRINT 12 OK  - 3  ABSTRACT  FORMATO A2 200 DPI NOVO  200  - FORMATO DA FOLHA A2 HORIZONTAL   EEA.jpg"
+import image9 from "../../images/horizontal/PRINT 13 OK - NOVO LETRAS  A2  200 - HORIZONTAL  200  -  EEA.jpg"
+import image10 from "../../images/horizontal/41826414_2238797246133504_8347112469822439424_n.jpg"
+
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
 export default function CarouselSlide(props) {
     var items = [
         {
-            img: image1
+            img: image6
         },
         {
-            img: image2
+            img: image7
         },
         {
-            img: image3
+            img: image8
         },
         {
-            img: image4
+            img: image9
         },
         {
-            img: image5
+            img: image10
         }
     ]
 
