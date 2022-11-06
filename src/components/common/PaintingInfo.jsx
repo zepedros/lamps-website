@@ -6,7 +6,7 @@ import IconButton from '@mui/material/IconButton';
 import Grid from '@mui/material/Grid';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-export default function WorkInfo(props) {
+export default function PaintingInfo(props) {
 
     return (
         <div>

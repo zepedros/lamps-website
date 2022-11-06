@@ -1,5 +1,6 @@
 import ResponsiveAppBar from "../../common/ResponsiveAppBar";
-import WorkInfo from "./WorkInfo";
+import PaintingInfo from "../../common/PaintingInfo";
+import PaintingsGallery from "../../common/PaintingsGallery";
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import { CardActionArea } from '@mui/material';
@@ -85,14 +86,14 @@ export default function Works() {
                             }
                         }
                     >
-                        <WorkInfo
+                        <PaintingInfo
                             img={imageInfo.img}
                             title={imageInfo.title}
                             description={imageInfo.description}
                             handleClosing={() => handleShowImageInfo(false)}
                             onClick={() => handleShowImageInfo(true)}
                         >
-                        </WorkInfo>
+                        </PaintingInfo>
                     </div>
                     :
                     <div>
@@ -115,42 +116,8 @@ export default function Works() {
                             }}>
                             Some of the paintings shown on the works section of the website are being made into a limited series. These are then numbered, signed and properly authenticated by the author (Luís Jesus). If you wish to get more information, feel free to contact us.
                         </Typography>
-                        <ImageList variant="masonry" cols={4} gap={8}
-                            sx={{ display: { xs: 'none', md: 'block' } }}
-                        >
-                            {itemData.map((item) => (
-                                <CardActionArea key={item.img}>
-                                    <ImageListItem
-                                        onClick={() => handleShowImageInfo(true, item.img, item.title, item.description)}
-                                    >
-                                        <img
-                                            src={item.img}
-                                            srcSet={item.img}
-                                            alt={item.title}
-                                            loading="lazy"
-                                        />
-                                    </ImageListItem>
-                                </CardActionArea>
-                            ))}
-                        </ImageList>
-                        <ImageList variant="masonry" cols={2} gap={8}
-                            sx={{ display: { xs: 'block', md: 'none' } }}
-                        >
-                            {itemData.map((item) => (
-                                <CardActionArea key={item.img}>
-                                    <ImageListItem
-                                        onClick={() => handleShowImageInfo(true, item.img, item.title, item.description)}
-                                    >
-                                        <img
-                                            src={item.img}
-                                            srcSet={item.img}
-                                            alt={item.title}
-                                            loading="lazy"
-                                        />
-                                    </ImageListItem>
-                                </CardActionArea>
-                            ))}
-                        </ImageList>
+                        <PaintingsGallery itemData={itemData} handleShowImageInfo={handleShowImageInfo}></PaintingsGallery>
+                        
                     </div>
 
             }

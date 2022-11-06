@@ -28,6 +28,7 @@ import Grid from '@mui/material/Grid';
 
 const pages = [
   { name: 'works', href: '/lamps-website/#/works' },
+  {name: "acrylic paintings", href: "/lamps-website/#/acrylic-paintings"},
   { name: 'about me', href: '/lamps-website/#/about-me' },
   { name: 'contacts', href: '/lamps-website/#/contacts' }
 ]
