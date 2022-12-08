@@ -43,7 +43,7 @@ export default function CarouselSlide(props) {
             fullHeightHover={false}     // We want the nav buttons wrapper to only be as big as the button element is
             navButtonsProps={{          // Change the colors and radius of the actual buttons. THIS STYLES BOTH BUTTONS
                 style: {
-                    backgroundColor: '#1976d2',
+                    backgroundColor: '#1976d1',
                     borderRadius: "6px"
                 }
             }}
