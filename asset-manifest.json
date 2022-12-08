@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lamps-website/static/css/main.0d1b1748.css",
-    "main.js": "/lamps-website/static/js/main.20184864.js",
+    "main.js": "/lamps-website/static/js/main.a553cd8c.js",
     "static/js/787.351e15be.chunk.js": "/lamps-website/static/js/787.351e15be.chunk.js",
     "static/media/PRINT 13 OK - NOVO LETRAS  A2  200 - HORIZONTAL  200  -  EEA.jpg": "/lamps-website/static/media/PRINT 13 OK - NOVO LETRAS  A2  200 - HORIZONTAL  200  -  EEA.d6c48024efbfdf4a5bf2.jpg",
     "static/media/11 PRINT OK  -  É O CAMINHO 200 A3  HORIZONTAL   EEA.jpg": "/lamps-website/static/media/11 PRINT OK  -  É O CAMINHO 200 A3  HORIZONTAL   EEA.bdf979bef2c69087967c.jpg",
@@ -47,11 +47,11 @@
     "static/media/MODENINE.TTF": "/lamps-website/static/media/MODENINE.116d0efd9dbb932a0a45.TTF",
     "index.html": "/lamps-website/index.html",
     "main.0d1b1748.css.map": "/lamps-website/static/css/main.0d1b1748.css.map",
-    "main.20184864.js.map": "/lamps-website/static/js/main.20184864.js.map",
+    "main.a553cd8c.js.map": "/lamps-website/static/js/main.a553cd8c.js.map",
     "787.351e15be.chunk.js.map": "/lamps-website/static/js/787.351e15be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d1b1748.css",
-    "static/js/main.20184864.js"
+    "static/js/main.a553cd8c.js"
   ]
 }
