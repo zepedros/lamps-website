@@ -121,7 +121,7 @@ export default function ResponsiveAppBar() {
                   textDecoration: 'none',
                 }}
               >
-                luís jesus
+                luís jesus art
               </Typography>
             </IconButton>
           </Box>
@@ -148,7 +148,7 @@ export default function ResponsiveAppBar() {
                   textDecoration: 'none',
                 }}
               >
-                luís jesus
+                luís jesus art
               </Typography>
             </IconButton>
             {pages.map((page) => {
