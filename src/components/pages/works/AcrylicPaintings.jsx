@@ -1,4 +1,4 @@
-import ResponsiveAppBar from "../common/ResponsiveAppBar" 
+import ResponsiveAppBar from "../../common/ResponsiveAppBar" 
 
 export default function AcrylicPaintings() {
     return(
